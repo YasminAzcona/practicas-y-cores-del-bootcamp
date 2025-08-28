@@ -1,0 +1,26 @@
+.row {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 8px;
+    gap: 16px;
+/* Acá va 1 propiedad */
+}
+  
+.col {
+    background-color: rgb(146, 238, 238);
+    flex: 1;
+    padding: 16px;
+/* Acá van 4 propiedades */
+}
+  
+.col-2 {
+    background-color: rgb(146, 238, 238);
+    flex: 2;
+/* Acá va 1 propiedad */
+}
+  
+.col-3 {
+    background-color: rgb(146, 238, 238);
+    flex: 3;
+/* Acá va 1 propiedad */
+}

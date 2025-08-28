@@ -1,0 +1,54 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+main{
+    margin: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background-color: rgb(250, 245, 255);
+
+}
+
+.portada {
+    position: relative;
+    margin: -24px -24px 48px -24px;
+
+}
+.portada img {
+    width: 100%;
+    border-radius: 20px;
+}
+.miFoto{
+   margin: 32px;
+   position: absolute;
+   top: 30%;
+}
+.miFoto img{
+    width: 20%;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+.datos h2,.datos p, .datos p i{
+    margin: 0;
+}
+h2{
+    font-size: 48px;
+}
+.datos p i{
+    color: rgb(97, 97, 97);
+}
+.descripcion{
+    margin-top: 32px;
+}
+.editar{
+    border-radius: 16px;
+    width: 120px;
+    background-color: #faf5ff;
+    border: 2px solid #6660F6;
+}

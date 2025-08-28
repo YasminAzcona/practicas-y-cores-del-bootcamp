@@ -1,0 +1,97 @@
+body {
+    font-family: "Raleway", sans-serif;;
+}
+
+h1 {
+    color: #342471;
+    font-size: 32px;
+    display: flex;
+    align-items: flex-end;
+}
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+p {
+    font-size: 16px;
+}
+p b{
+    color: #6039b9;
+}
+a {
+    color: black;
+}
+
+.perfiles {
+    justify-content:space-evenly ;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+.behance {
+    background-color: rgb(2, 1, 7);
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+.behance a {
+    color: aliceblue;
+}
+.gitHub{    background-color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 20px;}
+.gitHub a{
+    color: aliceblue;
+}
+.linkedin{    background-color: #007EBB;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 20px;}
+.linkedin a{
+    color: aliceblue;
+}
+.presentacion {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mift {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 24px;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #342471;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #342471;
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+textarea {
+    border-radius: 16px;
+    border-color: rgb(186, 185, 185);
+}
